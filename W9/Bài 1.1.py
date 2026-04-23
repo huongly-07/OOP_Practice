@@ -22,7 +22,6 @@ class Point:
     
     def getY(self):   
         return self.__y
-    
     def distance(self,other):
         d = math.sqrt((self.__x - other.getX())**2 + (self.__y - other.getY())**2)
         return d
